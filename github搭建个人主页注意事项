@@ -1,0 +1,8 @@
+1.第一次从本地mac推代码到github需把它添加到你的项目配置里:
+git remote add origin https://github.com/iseau/iseau.github.io.git
+否则会出现push之后，在github中看不到提交的代码；
+
+2.在个人主页项目中，至少得有一个index.html文件，否则访问的的时候会出现404错误；
+
+3.参考文档：
+http://www.worldhello.net/gotgithub/03-project-hosting/050-homepage.html
