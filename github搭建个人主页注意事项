@@ -4,5 +4,16 @@ git remote add origin https://github.com/iseau/iseau.github.io.git
 
 2.在个人主页项目中，至少得有一个index.html文件，否则访问的的时候会出现404错误；
 
-3.参考文档：
+3.国外的服务器不需要备案，国内的服务器需要备案（备案流程甚复杂）;
+
+4.搭建github个人博客基本流程:
+	4.1.申请github帐号，并且创建xxx.github.io库；
+	4.2.购买一个域名,有很多地方可以购买，我在美橙购买；
+	4.3.待域名实名生效后，添加域名解析:
+		iseau.top	A记录		7200   (ping iseau.github.io 得到的ip)
+		www.iseau.top	CNAME记录	7200   iseau.github.io.
+	4.4.购买云虚拟机，绑定域名www.iseau.top
+	4.5.这个时候，访问iseau.top或者www.iseau.top都可以访问到个人的github博客首页
+5.参考文档：
 http://www.worldhello.net/gotgithub/03-project-hosting/050-homepage.html
+
